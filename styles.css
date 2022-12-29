@@ -1,0 +1,97 @@
+/*
+  ***
+  Name: Devika Dwivedi
+  Date: October 19 2022
+  Section: CSE 154 AC
+  TA: Allison Ho
+  This is the styles.css page for a random coin flipping webpage
+  ***
+*/
+
+body {
+  font-family: 'Bebas Neue', cursive;
+}
+
+main {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 42pt;
+}
+
+header {
+  font-size: 46pt;
+  text-shadow: 0px 0px 30px #ffffff;
+  height: 200px;
+}
+
+header > img {
+  height: 150px;
+}
+
+img {
+  display: block;
+  height: 250px;
+}
+
+button {
+  height: 100px;
+  font-size: 28px;
+  width: 200px;
+}
+
+button:hover, body {
+  background-color: #b2e4b6;
+}
+
+header, button {
+  background-color: #5f9164;
+}
+
+section {
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  height: 500px;
+  width: 500px;
+  font-size: 36pt;
+}
+
+.buttons {
+  flex-direction: row;
+}
+
+.changetheme {
+  background-color: #d67feb;
+}
+
+main, header, .buttons, section {
+  display: flex;
+}
+
+.stats {
+  display: none;
+}
+
+main, section, header {
+  align-items: center;
+}
+
+h2, header {
+  text-align: center;
+}
+
+header, section {
+  justify-content: center;
+}
+
+img, button {
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
